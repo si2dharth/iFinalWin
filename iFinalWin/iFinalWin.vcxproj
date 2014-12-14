@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23C31551-A8E1-44A3-81D5-EB9071AFECA3}</ProjectGuid>
+    <RootNamespace>iFinalWin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="ControlManager.h" />
+    <ClInclude Include="DArc.h" />
+    <ClInclude Include="DCircle.h" />
+    <ClInclude Include="DDrawing.h" />
+    <ClInclude Include="DEllipse.h" />
+    <ClInclude Include="DImage.h" />
+    <ClInclude Include="Draw3D.h" />
+    <ClInclude Include="DRect.h" />
+    <ClInclude Include="DShapes.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameEnvironment.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="iBase.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="ImageProcessor.h" />
+    <ClInclude Include="ImgProcessing.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="MemoryObjectManager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="PhyDisplay.h" />
+    <ClInclude Include="PhyEnvironment.h" />
+    <ClInclude Include="PhyObject.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Primitive.h" />
+    <ClInclude Include="PropertyVar.h" />
+    <ClInclude Include="PsudoWindow.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TextBox.h" />
+    <ClInclude Include="TrackBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Breakout.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CheckFile.cpp" />
+    <ClCompile Include="ConsoleCheck.cpp" />
+    <ClCompile Include="ConsoleWindow.cpp" />
+    <ClCompile Include="ControlManager.cpp" />
+    <ClCompile Include="Dave.cpp" />
+    <ClCompile Include="Draw3D.cpp" />
+    <ClCompile Include="DShapes.cpp" />
+    <ClCompile Include="Events.cpp" />
+    <ClCompile Include="FinanceKeeper.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameEnvironment.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="iBase.cpp" />
+    <ClCompile Include="iGraphics.cpp" />
+    <ClCompile Include="ImageProcessing.cpp" />
+    <ClCompile Include="Learning_Try.cpp" />
+    <ClCompile Include="MemCheck.cpp" />
+    <ClCompile Include="MemoryObjectManager.cpp" />
+    <ClCompile Include="New_Show.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="PhysicsCheck.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="About iBase.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+The iBase is a very special header file that contains special methods to make a Windows program very easily, and handle Windows as objects.
+
+The WinMain(HINSTANCE, HINSTANCE, LPSTR args, int) is now replaced with a more favourable
+			Run(char[] args)
+		The args hold the arguments actually passed to the WinMain. All the other are arguments are handled by iBase.
+
+The WindowProc is internally defined and is able to pass all the messages that may occur during program run. The message, the Window handle, and the parameters are all properly handled.
+
+The creation of a Windows Class is automatic. It is possible to add Windows to the same class or to different classes. Here, the HINSTANCE is used and passed automatically. ClassName is defined "WindowClass" by default, but it is possible to specify another class name. The cursor is taken as a IDC_ARROW. This is not changeable.
+
+The window is created using the class Window.
+
+Internally, a DefinedClasses list holds the names of all the classes that have been defined. This is used so as not to cause repeatation of creating classes with same name, and make new classes when a new name is encountered.
+
+A Map Object, WindowList common to all windows, holds the list of all the windows, along with the list of handles to each window. This is used by the WindowProc function to direct events to associated window.
+

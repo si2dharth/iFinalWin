@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Controls">
+      <UniqueIdentifier>{d75c8640-6b3f-4d91-9515-860e46a78cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras">
+      <UniqueIdentifier>{c7e80874-4990-40c4-ba3b-7ff1f566acbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Camera">
+      <UniqueIdentifier>{4990a7a3-a8d9-4d12-8f31-078e3c2afc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Image Processing">
+      <UniqueIdentifier>{74144f9e-89b7-4ab7-821d-b341b200bb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Files">
+      <UniqueIdentifier>{07c48e8a-10a9-4bff-92dd-5c6b620d727f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Files\Event management">
+      <UniqueIdentifier>{435b5cb3-9072-415e-96cd-de7997cfc0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files">
+      <UniqueIdentifier>{2d3762fb-e434-4dda-b489-2cedeefcca47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\File Management">
+      <UniqueIdentifier>{5288e4cd-1acb-4015-8b51-5d67c43c6935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Thread Management">
+      <UniqueIdentifier>{83c3fb62-6997-4214-a62d-38c3ce3b1198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\DirectX">
+      <UniqueIdentifier>{255044d1-aa8a-430c-8672-0bfbab3093a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\DirectX\Main Management">
+      <UniqueIdentifier>{a84852d4-e7e6-4aec-b33e-667de9569a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\DirectX\DirectX Shapes">
+      <UniqueIdentifier>{9441071f-8744-4af2-9b2b-8990e42b6788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Physics">
+      <UniqueIdentifier>{c9601d57-182e-4877-8156-d07794eacdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Basic">
+      <UniqueIdentifier>{c56963c2-1aa8-46d2-b812-74f5844a0fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Basic\Sprite">
+      <UniqueIdentifier>{8721f1f9-9acf-47d0-a976-56dd127aa758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Basic\Object">
+      <UniqueIdentifier>{691308d0-efc0-4883-9fb8-306e947b0043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Basic\Environment">
+      <UniqueIdentifier>{85ce69a2-19ef-434f-b734-72ae26a6dacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\Game Files\Basic\GameEngine">
+      <UniqueIdentifier>{a24f3f33-34b3-4695-aeef-04e24687c49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base Files\Memory Management">
+      <UniqueIdentifier>{52923b04-6e71-4de0-9a8e-f59d509fa232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window Extensions">
+      <UniqueIdentifier>{11f140a4-0aee-461e-a455-928730d617b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extras\3D Management">
+      <UniqueIdentifier>{c9740c2f-04d7-4043-9336-dda1003bdd9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlManager.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackBar.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="iBase.h">
+      <Filter>Header Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Extras\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgProcessing.h">
+      <Filter>Header Files\Extras\Image Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessor.h">
+      <Filter>Header Files\Extras\Image Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Base Files\Event management</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Base Files\Event management</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files\Extras\DirectX\Main Management</Filter>
+    </ClInclude>
+    <ClInclude Include="DArc.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DCircle.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DDrawing.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DEllipse.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DImage.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DRect.h">
+      <Filter>Header Files\Extras\DirectX\DirectX Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="DShapes.h">
+      <Filter>Header Files\Extras\DirectX\Main Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyDisplay.h">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyEnvironment.h">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyObject.h">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Extras\Game Files\Basic\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Extras\Game Files\Basic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnvironment.h">
+      <Filter>Header Files\Extras\Game Files\Basic\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\Extras\Game Files\Basic\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryObjectManager.h">
+      <Filter>Header Files\Base Files\Memory Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Window Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="PsudoWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw3D.h">
+      <Filter>Header Files\Extras\3D Management</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Header Files\Extras\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcessing.cpp">
+      <Filter>Header Files\Extras\Image Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Header Files\Base Files\Event management</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlManager.cpp">
+      <Filter>Header Files\Base Files\Event management</Filter>
+    </ClCompile>
+    <ClCompile Include="iGraphics.cpp">
+      <Filter>Header Files\Extras\DirectX\Main Management</Filter>
+    </ClCompile>
+    <ClCompile Include="DShapes.cpp">
+      <Filter>Header Files\Extras\DirectX\Main Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Breakout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Show.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCheck.cpp">
+      <Filter>Header Files\Extras\Game Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Header Files\Extras\Game Files\Basic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Header Files\Extras\Game Files\Basic\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnvironment.cpp">
+      <Filter>Header Files\Extras\Game Files\Basic\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Header Files\Extras\Game Files\Basic\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MemCheck.cpp">
+      <Filter>Header Files\Base Files\Memory Management</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryObjectManager.cpp">
+      <Filter>Header Files\Base Files\Memory Management</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleWindow.cpp">
+      <Filter>Header Files\Window Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="iBase.cpp">
+      <Filter>Header Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinanceKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw3D.cpp">
+      <Filter>Header Files\Extras\3D Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning_Try.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTest.cpp">
+      <Filter>Header Files\Extras\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleCheck.cpp">
+      <Filter>Header Files\Window Extensions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="About iBase.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
