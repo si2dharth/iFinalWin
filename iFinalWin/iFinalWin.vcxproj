@@ -94,7 +94,6 @@
     <ClInclude Include="PhyEnvironment.h" />
     <ClInclude Include="PhyObject.h" />
     <ClInclude Include="Physics.h" />
-    <ClInclude Include="Primitive.h" />
     <ClInclude Include="PropertyVar.h" />
     <ClInclude Include="PsudoWindow.h" />
     <ClInclude Include="Sprite.h" />

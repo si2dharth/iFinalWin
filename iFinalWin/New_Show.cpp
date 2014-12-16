@@ -110,7 +110,7 @@ void PrepareWindow(Window *W) {
 	ShowWin = W2;
 }
 
-int New_Show(char args[]) {
+int Run(char args[]) {
 	Window W(PrepareWindow,0,"Settings",700,300);
 	Cm = new Camera;
 	::W = &W;
